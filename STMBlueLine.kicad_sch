@@ -1,5 +1,438 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d9f70aa0-fcfd-4ae4-9801-1024ce5b770a")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 160.02 66.04) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2278c701-c91f-4ae1-9842-b2789599278f")
+	)
+	(wire
+		(pts
+			(xy 142.24 66.04) (xy 160.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b99e0d-123a-4051-92a7-ccb89fee60e9")
+	)
+	(wire
+		(pts
+			(xy 170.18 58.42) (xy 170.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f6e436-7357-4708-9d7a-a178e024f377")
+	)
+	(wire
+		(pts
+			(xy 142.24 63.5) (xy 142.24 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b653fc22-ccec-48e4-87fa-e089c060ae75")
+	)
+	(wire
+		(pts
+			(xy 170.18 58.42) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8df09b2-d2cb-4f9b-b27a-5c4803603199")
+	)
+	(wire
+		(pts
+			(xy 165.1 55.88) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d420f7-5865-43eb-aa29-0c545efb81fa")
+	)
+	(sheet
+		(at 132.08 68.58)
+		(size 43.18 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06ef213c-9b6a-476b-b845-ea62437585b7")
+		(property "Sheetname" "MCU"
+			(at 132.08 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 132.08 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDMMC1{D[0..3] CLK CMD DET}" bidirectional
+			(at 170.18 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5fbacf39-0f1d-442f-963f-2e6552384190")
+		)
+		(pin "I2C1{SCL SDA}" bidirectional
+			(at 132.08 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea6f57eb-e3f7-4ba7-99b0-bf6e19cd1c9e")
+		)
+		(pin "I2S2{WS CK SDI SDO}" bidirectional
+			(at 132.08 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa6e959c-e0f3-4952-b8e5-82bb368c4e95")
+		)
+		(pin "I2C2{SCL SDA}" bidirectional
+			(at 132.08 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c35baac0-754d-4224-adf6-df38c186e771")
+		)
+		(pin "I2S1{WS CK SDI SDO}" bidirectional
+			(at 132.08 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4ea1ae70-26e1-44a9-ba6b-83f43a1da2db")
+		)
+		(pin "USB{M P}" bidirectional
+			(at 165.1 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8025f63b-c9f3-4c8f-ad42-0c6219d3d376")
+		)
+		(pin "STLINK{SWDIO SWCLK}" bidirectional
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26becf71-01a1-48de-a5dc-237e03ee7736")
+		)
+		(instances
+			(project "STMBlueLine"
+				(path "/d9f70aa0-fcfd-4ae4-9801-1024ce5b770a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 25.4)
+		(size 20.32 30.48)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b8eacbf-3481-434e-abf0-0c77f2ae786c")
+		(property "Sheetname" "USB DFU"
+			(at 152.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-DFU.kicad_sch"
+			(at 173.228 55.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB{M P}" bidirectional
+			(at 165.1 55.88 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33b23a11-5d7a-420a-a08d-b03ba8a5dd19")
+		)
+		(instances
+			(project "STMBlueLine"
+				(path "/d9f70aa0-fcfd-4ae4-9801-1024ce5b770a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 38.1)
+		(size 15.24 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a1846a8-7cf9-40e2-86f9-7ca7be2746df")
+		(property "Sheetname" "STLINK"
+			(at 131.3684 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STLINK.kicad_sch"
+			(at 147.9046 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "STLINK{SWDIO SWCLK}" bidirectional
+			(at 142.24 63.5 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "966ce6e2-27b9-4d7b-9b09-5218cf4198db")
+		)
+		(instances
+			(project "STMBlueLine"
+				(path "/d9f70aa0-fcfd-4ae4-9801-1024ce5b770a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 116.84)
+		(size 43.18 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "666ee3ec-a1ed-4703-98a8-cdaea5f84fb1")
+		(property "Sheetname" "M.2 Connector"
+			(at 132.08 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "M2.kicad_sch"
+			(at 132.08 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STMBlueLine"
+				(path "/d9f70aa0-fcfd-4ae4-9801-1024ce5b770a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 53.34)
+		(size 33.02 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b1a92380-38d8-44e8-bc23-33aa2ab32880")
+		(property "Sheetname" "Micro SD"
+			(at 180.34 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MicroSD.kicad_sch"
+			(at 180.34 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDMMC1{D[0..3] CLK CMD DET}" bidirectional
+			(at 180.34 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "191abfd9-aec6-49ea-86b9-e805324ccc4e")
+		)
+		(instances
+			(project "STMBlueLine"
+				(path "/d9f70aa0-fcfd-4ae4-9801-1024ce5b770a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 68.58)
+		(size 25.4 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3476d08-12bc-4118-bd89-b8dcd1d3e6bf")
+		(property "Sheetname" "Codec"
+			(at 101.6 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Codec.kicad_sch"
+			(at 101.6 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STMBlueLine"
+				(path "/d9f70aa0-fcfd-4ae4-9801-1024ce5b770a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 88.9)
+		(size 20.32 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8e14ee7-176c-4894-b162-01ced926259d")
+		(property "Sheetname" "Power"
+			(at 180.34 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 180.34 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STMBlueLine"
+				(path "/d9f70aa0-fcfd-4ae4-9801-1024ce5b770a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

@@ -1,0 +1,1270 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c49be5bb-3332-45a1-84c6-4f2f4c382c16")
+	(paper "A4")
+	(lib_symbols
+		(symbol "TLV320AIC3104IRHBR:TLV320AIC3104IRHBR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -25.4153 41.2999 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TLV320AIC3104IRHBR"
+				(at -25.4203 -68.6145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TLV320AIC3104IRHBR:QFN50P500X500X100-33N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TEXAS INSTRUMENTS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TLV320AIC3104IRHBR_0_0"
+				(rectangle
+					(start -25.4 -66.04)
+					(end 25.4 40.64)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input clock
+					(at -30.48 -12.7 0)
+					(length 5.08)
+					(name "MCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 17.78 0)
+					(length 5.08)
+					(name "MIC1LP/LINE1LP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 10.16 0)
+					(length 5.08)
+					(name "MIC1LM/LINE1LM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 7.62 0)
+					(length 5.08)
+					(name "MIC1RP/LINE1RP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 15.24 0)
+					(length 5.08)
+					(name "MIC1RM/LINE1RM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 2.54 0)
+					(length 5.08)
+					(name "MIC2L/LINE2L/MICDET"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "MICBIAS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 0 0)
+					(length 5.08)
+					(name "MIC2R/LINE2R"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -30.48 180)
+					(length 5.08)
+					(name "AVSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 35.56 180)
+					(length 5.08)
+					(name "DRVDD1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 15.24 180)
+					(length 5.08)
+					(name "HPLOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional clock
+					(at -30.48 -5.08 0)
+					(length 5.08)
+					(name "BCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 12.7 180)
+					(length 5.08)
+					(name "HPLCOM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -35.56 180)
+					(length 5.08)
+					(name "DRVSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 17.78 180)
+					(length 5.08)
+					(name "HPRCOM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 20.32 180)
+					(length 5.08)
+					(name "HPROUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 33.02 180)
+					(length 5.08)
+					(name "DRVDD2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 38.1 180)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -33.02 180)
+					(length 5.08)
+					(name "AVSS__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 2.54 180)
+					(length 5.08)
+					(name "LEFT_LOP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 5.08 180)
+					(length 5.08)
+					(name "LEFT_LOM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 7.62 180)
+					(length 5.08)
+					(name "RIGHT_LOP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional clock
+					(at -30.48 -7.62 0)
+					(length 5.08)
+					(name "WCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 10.16 180)
+					(length 5.08)
+					(name "RIGHT_LOM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 22.86 0)
+					(length 5.08)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 30.48 180)
+					(length 5.08)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -40.64 180)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -43.18 180)
+					(length 5.08)
+					(name "EP__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -45.72 180)
+					(length 5.08)
+					(name "EP__2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -48.26 180)
+					(length 5.08)
+					(name "EP__3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -50.8 180)
+					(length 5.08)
+					(name "EP__4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -53.34 180)
+					(length 5.08)
+					(name "EP__5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -55.88 180)
+					(length 5.08)
+					(name "EP__6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -58.42 180)
+					(length 5.08)
+					(name "EP__7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -60.96 180)
+					(length 5.08)
+					(name "EP__8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -63.5 180)
+					(length 5.08)
+					(name "EP__9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33_9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 -15.24 0)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -30.48 -17.78 0)
+					(length 5.08)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -38.1 180)
+					(length 5.08)
+					(name "DVSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 27.94 180)
+					(length 5.08)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional clock
+					(at -30.48 -22.86 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -25.4 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLV320AIC3104IRHBR:TLV320AIC3104IRHBR")
+		(at 93.98 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "005b6f1f-576f-4cbb-902b-999342640327")
+		(property "Reference" "U2"
+			(at 93.98 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV320AIC3104IRHBR"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TLV320AIC3104IRHBR:QFN50P500X500X100-33N"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TEXAS INSTRUMENTS"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d470aaf-064a-44e6-8d26-660bf138355b")
+		)
+		(pin "11"
+			(uuid "e231c2e2-d77f-4879-a27d-2fe19096ca01")
+		)
+		(pin "31"
+			(uuid "0ac82e09-dc2b-49b3-a63e-fbe11c5b98b4")
+		)
+		(pin "32"
+			(uuid "d8241b23-e36c-4340-bced-bb960c4f3414")
+		)
+		(pin "33_5"
+			(uuid "bb58e1cc-d791-4581-b16f-f15db7a3ecee")
+		)
+		(pin "6"
+			(uuid "d9b0ea59-e725-4f4f-ae29-0fff1dff0a71")
+		)
+		(pin "14"
+			(uuid "2fb30bee-7d8b-4709-801c-1d40576c1d5e")
+		)
+		(pin "3"
+			(uuid "086752d7-3a12-4615-95f4-4922524964d9")
+		)
+		(pin "21"
+			(uuid "1ba7e22a-8563-4815-9612-d6ca95098e62")
+		)
+		(pin "24"
+			(uuid "93e129d4-b781-47c9-843e-2c76a198580c")
+		)
+		(pin "28"
+			(uuid "48e71555-94ce-40bc-bf76-c4ad609839e4")
+		)
+		(pin "30"
+			(uuid "5f267ce7-0eac-4e37-b837-1352c6e848c9")
+		)
+		(pin "33_1"
+			(uuid "88d11588-2617-4e36-a4dd-e381c3b23258")
+		)
+		(pin "13"
+			(uuid "e4883ac6-40c9-4cd1-bffe-3eccc97420a7")
+		)
+		(pin "25"
+			(uuid "d0710c00-2081-4f62-99be-65714a332f4f")
+		)
+		(pin "15"
+			(uuid "5d75143e-84da-4930-893c-4f339878a11b")
+		)
+		(pin "4"
+			(uuid "534be1ea-ed1e-46bd-ad94-d74a5161906a")
+		)
+		(pin "23"
+			(uuid "92d0ea53-7d0b-4ec4-80be-0098cd7e237e")
+		)
+		(pin "8"
+			(uuid "ed986923-8c86-402c-968e-2b625b779a21")
+		)
+		(pin "19"
+			(uuid "5bcee5d8-0042-4806-9dcd-6af93232cb61")
+		)
+		(pin "26"
+			(uuid "f71a9bfd-e6d5-4913-aded-f8645a2e145e")
+		)
+		(pin "17"
+			(uuid "b9cccba0-ff58-4ccc-9405-f0d9dce55ec8")
+		)
+		(pin "20"
+			(uuid "9747baa3-40ce-49cf-923f-048f24a4c652")
+		)
+		(pin "33_7"
+			(uuid "871c8c8f-0c8e-426c-b9f4-f87f7824a238")
+		)
+		(pin "5"
+			(uuid "a71588c6-565a-4d54-b3f2-0313e5fb4d41")
+		)
+		(pin "33"
+			(uuid "59431edf-3824-4299-bd41-9a45d7d92f74")
+		)
+		(pin "12"
+			(uuid "6778e365-0243-477c-9f21-0647556d0966")
+		)
+		(pin "18"
+			(uuid "458b4021-405c-4415-940e-9c1b0ca5a4d9")
+		)
+		(pin "7"
+			(uuid "555129ea-3a66-4112-a984-fb4cc5a79dc3")
+		)
+		(pin "33_2"
+			(uuid "d9716509-f723-413b-bfd7-828ffc357d0a")
+		)
+		(pin "33_4"
+			(uuid "16925f72-4842-45d5-8dd8-5f1a5d2393ce")
+		)
+		(pin "33_6"
+			(uuid "5dd17653-a650-42a7-a552-e1cb8d805a56")
+		)
+		(pin "16"
+			(uuid "ee600f1c-1494-4a24-bc88-22aba98208d3")
+		)
+		(pin "22"
+			(uuid "80b8cbf2-d894-419d-a5ba-ef6c81f3b2d2")
+		)
+		(pin "33_3"
+			(uuid "a8fd56d5-9a78-45fe-9e14-16dc7273f989")
+		)
+		(pin "33_9"
+			(uuid "04f44389-6a97-40f2-a8da-5eba3da7ba79")
+		)
+		(pin "10"
+			(uuid "ff830156-db8a-4262-b440-3d8c308bbeb7")
+		)
+		(pin "33_8"
+			(uuid "0370aace-c00a-4f7b-8ae6-9b2ff72a8645")
+		)
+		(pin "29"
+			(uuid "903c986c-6452-48c9-831b-ad347b958bd7")
+		)
+		(pin "2"
+			(uuid "5a91cf5f-18c5-4928-b8e0-83080c0e9c43")
+		)
+		(pin "9"
+			(uuid "595e5ec7-21f8-4317-8046-4b95bb3c3ba3")
+		)
+		(pin "27"
+			(uuid "591bcd53-b1f2-48dd-a9e8-8c9369d71da3")
+		)
+		(instances
+			(project "STMBlueLine"
+				(path "/d9f70aa0-fcfd-4ae4-9801-1024ce5b770a/f3476d08-12bc-4118-bd89-b8dcd1d3e6bf"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLV320AIC3104IRHBR:TLV320AIC3104IRHBR")
+		(at 198.12 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed86f0eb-feea-4fa7-9e1b-ae9eebf25e2a")
+		(property "Reference" "U3"
+			(at 198.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV320AIC3104IRHBR"
+			(at 198.12 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TLV320AIC3104IRHBR:QFN50P500X500X100-33N"
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TEXAS INSTRUMENTS"
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c0b0ceb-232a-4f15-bf8a-5bcd23326f04")
+		)
+		(pin "11"
+			(uuid "e99592a2-ec32-4bbb-a9e3-717d51984941")
+		)
+		(pin "31"
+			(uuid "9abef818-eece-49af-ace5-ad78eb1890b3")
+		)
+		(pin "32"
+			(uuid "fd9fecc6-f99c-4457-93c4-aaa4fcbb74dd")
+		)
+		(pin "33_5"
+			(uuid "493aa2c5-bb04-49f7-923d-405035d2e108")
+		)
+		(pin "6"
+			(uuid "7fa49cad-d623-4447-a9b4-70eea785a259")
+		)
+		(pin "14"
+			(uuid "f63f6a4d-4a5e-4dd3-9750-d68c7bc7e7b8")
+		)
+		(pin "3"
+			(uuid "e2ae714e-d9c1-4bab-aac6-e766cd9a9ef1")
+		)
+		(pin "21"
+			(uuid "357bb26b-9aca-4ad0-855f-3dedb9a1eac5")
+		)
+		(pin "24"
+			(uuid "02294040-cfb4-4482-b540-9cfc39e8e093")
+		)
+		(pin "28"
+			(uuid "c3ccb352-4169-4ee1-876b-f68eda429ac3")
+		)
+		(pin "30"
+			(uuid "5fdcde81-4bc6-453b-99ef-7bd89461bc21")
+		)
+		(pin "33_1"
+			(uuid "a9b995d9-57b7-4f79-b60b-00b1190d76d1")
+		)
+		(pin "13"
+			(uuid "4db83728-8a66-4137-89e5-0f2ec0fabb8b")
+		)
+		(pin "25"
+			(uuid "8a1f6711-f8bb-423b-8d37-c14dfd9494b5")
+		)
+		(pin "15"
+			(uuid "c994f8f5-bf4a-4da7-a8c6-61be4c7c0cda")
+		)
+		(pin "4"
+			(uuid "999ae663-cc91-4115-a99d-a8996b746a7c")
+		)
+		(pin "23"
+			(uuid "7d3c0dd1-b2cd-465e-8f63-c0687f27c3b6")
+		)
+		(pin "8"
+			(uuid "0e40fc28-8185-4514-b050-b6323263e8c7")
+		)
+		(pin "19"
+			(uuid "268c336a-8b94-44be-955c-be7837d293d7")
+		)
+		(pin "26"
+			(uuid "1f6af5db-f853-4a11-9c70-ab09e4d06bf7")
+		)
+		(pin "17"
+			(uuid "73391e12-1a17-43e8-9f52-01f48f8830c1")
+		)
+		(pin "20"
+			(uuid "d4485651-3ff7-4248-93c8-0935b331ee8e")
+		)
+		(pin "33_7"
+			(uuid "1f477c10-1252-4324-8593-301320037fae")
+		)
+		(pin "5"
+			(uuid "cd50e6ea-f5e7-4e08-b403-1be325bd6a54")
+		)
+		(pin "33"
+			(uuid "f5646772-18a8-40d3-86de-11ab022a04f0")
+		)
+		(pin "12"
+			(uuid "8caceda6-b6a9-440b-8636-fb5e5a51be13")
+		)
+		(pin "18"
+			(uuid "72cf781e-65bd-4c36-b8da-0fd2859da468")
+		)
+		(pin "7"
+			(uuid "7170817e-50b7-4ae6-875f-3c0c8b4f784f")
+		)
+		(pin "33_2"
+			(uuid "02910c5a-f86f-42f9-9f24-df331e4588e8")
+		)
+		(pin "33_4"
+			(uuid "a3019999-d442-43a6-889a-3cf4a21364ab")
+		)
+		(pin "33_6"
+			(uuid "d6054849-8905-4803-92e8-0cf5fb8a7e56")
+		)
+		(pin "16"
+			(uuid "93687fb8-97d8-4f55-a2f9-c02f948093d1")
+		)
+		(pin "22"
+			(uuid "3a5af86f-cf63-47c2-ab77-d32db41e98f3")
+		)
+		(pin "33_3"
+			(uuid "fba2fde3-de31-4033-9550-7d464363a493")
+		)
+		(pin "33_9"
+			(uuid "6970d2e6-4f0f-4768-9f39-4a5d429f2c40")
+		)
+		(pin "10"
+			(uuid "53128627-41cf-4166-a74c-e52074e0b4be")
+		)
+		(pin "33_8"
+			(uuid "74d3eb28-0aa2-4421-9a35-6681a8ffd1e4")
+		)
+		(pin "29"
+			(uuid "39d1e970-aed9-44f7-8682-f8e3a255cd77")
+		)
+		(pin "2"
+			(uuid "d6072851-eebd-45ab-838f-b653d703d5e4")
+		)
+		(pin "9"
+			(uuid "19b0ae55-0df3-49da-bcdb-aed9ffc623fe")
+		)
+		(pin "27"
+			(uuid "b584ed05-60d2-4c9b-9563-0597da4259a0")
+		)
+		(instances
+			(project "STMBlueLine"
+				(path "/d9f70aa0-fcfd-4ae4-9801-1024ce5b770a/f3476d08-12bc-4118-bd89-b8dcd1d3e6bf"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
