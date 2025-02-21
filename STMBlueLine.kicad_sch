@@ -7,7 +7,17 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 148.59 71.882) (xy 148.59 74.422)
+			(xy 190.5 77.47) (xy 195.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051e87c8-0071-4ba0-b48e-e24aee82730d")
+	)
+	(wire
+		(pts
+			(xy 149.098 71.882) (xy 149.098 74.93)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +27,27 @@
 	)
 	(wire
 		(pts
-			(xy 130.302 71.882) (xy 148.59 71.882)
+			(xy 190.5 81.28) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c62fea7-7ea8-4917-8ca4-1e5086db82ef")
+	)
+	(wire
+		(pts
+			(xy 109.22 85.09) (xy 114.3 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4110e915-49ce-42c1-8c77-74d9bebb2cc8")
+	)
+	(wire
+		(pts
+			(xy 130.81 71.882) (xy 149.098 71.882)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.242 64.262) (xy 158.242 74.422)
+			(xy 158.75 64.77) (xy 158.75 74.93)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +67,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.302 69.342) (xy 130.302 71.882)
+			(xy 190.5 85.09) (xy 195.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9781fb-e64a-4cc9-a402-b39cf63add7a")
+	)
+	(wire
+		(pts
+			(xy 130.81 68.58) (xy 130.81 71.882)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +87,27 @@
 	)
 	(wire
 		(pts
-			(xy 158.242 64.262) (xy 168.402 64.262)
+			(xy 109.22 81.28) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c250d3-3553-443c-a798-add4f081ca79")
+	)
+	(wire
+		(pts
+			(xy 109.22 77.47) (xy 114.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e364ac22-b771-407f-a8ed-c978415e2e78")
+	)
+	(wire
+		(pts
+			(xy 158.75 64.77) (xy 168.91 64.77)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.162 61.722) (xy 153.162 74.422)
+			(xy 153.67 62.23) (xy 153.67 74.93)
 		)
 		(stroke
 			(width 0)
@@ -66,7 +126,7 @@
 		(uuid "f9d420f7-5865-43eb-aa29-0c545efb81fa")
 	)
 	(sheet
-		(at 113.792 74.422)
+		(at 114.3 74.93)
 		(size 76.2 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -82,7 +142,7 @@
 		)
 		(uuid "06ef213c-9b6a-476b-b845-ea62437585b7")
 		(property "Sheetname" "MCU"
-			(at 113.792 73.7104 0)
+			(at 114.3 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,7 +151,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 113.792 118.1866 0)
+			(at 114.3 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -100,7 +160,7 @@
 			)
 		)
 		(pin "SDMMC1{D[0..3] CLK CMD DET}" bidirectional
-			(at 158.242 74.422 90)
+			(at 158.75 74.93 90)
 			(uuid "5fbacf39-0f1d-442f-963f-2e6552384190")
 			(effects
 				(font
@@ -110,7 +170,7 @@
 			)
 		)
 		(pin "I2C1{SCL SDA}" bidirectional
-			(at 113.792 80.772 180)
+			(at 114.3 81.28 180)
 			(uuid "ea6f57eb-e3f7-4ba7-99b0-bf6e19cd1c9e")
 			(effects
 				(font
@@ -119,18 +179,8 @@
 				(justify left)
 			)
 		)
-		(pin "I2S2{WS CK SDI SDO}" bidirectional
-			(at 189.992 76.962 0)
-			(uuid "aa6e959c-e0f3-4952-b8e5-82bb368c4e95")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C2{SCL SDA}" bidirectional
-			(at 189.992 80.772 0)
+			(at 190.5 81.28 0)
 			(uuid "c35baac0-754d-4224-adf6-df38c186e771")
 			(effects
 				(font
@@ -139,18 +189,8 @@
 				(justify right)
 			)
 		)
-		(pin "I2S1{WS CK SDI SDO}" bidirectional
-			(at 113.792 76.962 180)
-			(uuid "4ea1ae70-26e1-44a9-ba6b-83f43a1da2db")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB{M P}" bidirectional
-			(at 153.162 74.422 90)
+			(at 153.67 74.93 90)
 			(uuid "8025f63b-c9f3-4c8f-ad42-0c6219d3d376")
 			(effects
 				(font
@@ -160,8 +200,48 @@
 			)
 		)
 		(pin "STLINK{SWDIO SWCLK}" bidirectional
-			(at 148.59 74.422 90)
+			(at 149.098 74.93 90)
 			(uuid "26becf71-01a1-48de-a5dc-237e03ee7736")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S1{WS CK MCK SDI SDO}" bidirectional
+			(at 114.3 77.47 180)
+			(uuid "fb803956-6f7c-4e27-a8fa-d5ae4cafca1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S2{WS CK MCK SDI SDO}" bidirectional
+			(at 190.5 77.47 0)
+			(uuid "fe1f5968-f772-449f-8d4c-69fcd8ac8ce7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "codec1_nRST" output
+			(at 114.3 85.09 180)
+			(uuid "0473af16-7676-47ff-a513-f9e60a7fc15e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "codec2_nRST" output
+			(at 190.5 85.09 0)
+			(uuid "b30afbb1-664e-454a-b914-e1f78a286c98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -178,7 +258,7 @@
 		)
 	)
 	(sheet
-		(at 140.462 31.242)
+		(at 140.97 31.75)
 		(size 20.32 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -193,7 +273,7 @@
 		)
 		(uuid "1b8eacbf-3481-434e-abf0-0c77f2ae786c")
 		(property "Sheetname" "USB DFU"
-			(at 140.462 30.5304 0)
+			(at 140.97 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,7 +282,7 @@
 			)
 		)
 		(property "Sheetfile" "USB-DFU.kicad_sch"
-			(at 161.29 61.468 90)
+			(at 161.798 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,7 +291,7 @@
 			)
 		)
 		(pin "USB{M P}" bidirectional
-			(at 153.162 61.722 270)
+			(at 153.67 62.23 270)
 			(uuid "33b23a11-5d7a-420a-a08d-b03ba8a5dd19")
 			(effects
 				(font
@@ -229,7 +309,7 @@
 		)
 	)
 	(sheet
-		(at 120.142 43.942)
+		(at 120.65 43.18)
 		(size 15.24 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -245,7 +325,7 @@
 		)
 		(uuid "3a1846a8-7cf9-40e2-86f9-7ca7be2746df")
 		(property "Sheetname" "STLINK"
-			(at 119.4304 69.342 90)
+			(at 119.9384 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -254,7 +334,7 @@
 			)
 		)
 		(property "Sheetfile" "STLINK.kicad_sch"
-			(at 135.9666 69.342 90)
+			(at 136.4746 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,7 +343,7 @@
 			)
 		)
 		(pin "STLINK{SWDIO SWCLK}" bidirectional
-			(at 130.302 69.342 270)
+			(at 130.81 68.58 270)
 			(uuid "966ce6e2-27b9-4d7b-9b09-5218cf4198db")
 			(effects
 				(font
@@ -323,8 +403,8 @@
 		)
 	)
 	(sheet
-		(at 195.072 74.422)
-		(size 32.258 20.32)
+		(at 195.58 74.93)
+		(size 31.75 19.812)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -339,7 +419,7 @@
 		)
 		(uuid "9f8c37d1-a91f-4122-861e-de16d931f91f")
 		(property "Sheetname" "Codec (In-Out Channels 3 & 4)"
-			(at 195.072 73.7104 0)
+			(at 195.58 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,12 +428,42 @@
 			)
 		)
 		(property "Sheetfile" "Codec.kicad_sch"
-			(at 195.072 95.3266 0)
+			(at 195.58 95.3266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I2C{SCL SDA}" bidirectional
+			(at 195.58 81.28 180)
+			(uuid "63b468ad-00fc-43d5-bc40-05a54b5e2cfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S{WS CK MCK SDI SDO}" bidirectional
+			(at 195.58 77.47 180)
+			(uuid "8d5e2f19-a08e-4535-a8ee-ae5c4d36db01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nRST" input
+			(at 195.58 85.09 180)
+			(uuid "d6890c93-533a-4820-8f9c-a9f048d7e2c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -365,7 +475,7 @@
 		)
 	)
 	(sheet
-		(at 168.402 59.182)
+		(at 168.91 59.69)
 		(size 33.02 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -381,7 +491,7 @@
 		)
 		(uuid "b1a92380-38d8-44e8-bc23-33aa2ab32880")
 		(property "Sheetname" "Micro SD"
-			(at 168.402 58.4704 0)
+			(at 168.91 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -390,7 +500,7 @@
 			)
 		)
 		(property "Sheetfile" "MicroSD.kicad_sch"
-			(at 168.402 69.9266 0)
+			(at 168.91 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -399,7 +509,7 @@
 			)
 		)
 		(pin "SDMMC1{D[0..3] CLK CMD DET}" bidirectional
-			(at 168.402 64.262 180)
+			(at 168.91 64.77 180)
 			(uuid "191abfd9-aec6-49ea-86b9-e805324ccc4e")
 			(effects
 				(font
@@ -417,8 +527,8 @@
 		)
 	)
 	(sheet
-		(at 76.454 74.422)
-		(size 32.258 20.32)
+		(at 77.724 74.93)
+		(size 31.496 19.812)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -433,7 +543,7 @@
 		)
 		(uuid "f3476d08-12bc-4118-bd89-b8dcd1d3e6bf")
 		(property "Sheetname" "Codec (In-Out Channels 1 & 2)"
-			(at 76.454 73.7104 0)
+			(at 77.724 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -442,12 +552,42 @@
 			)
 		)
 		(property "Sheetfile" "Codec.kicad_sch"
-			(at 76.454 95.3266 0)
+			(at 77.724 95.3266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "nRST" input
+			(at 109.22 85.09 0)
+			(uuid "80db8179-1411-4ee1-b0b8-ec08e41902de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C{SCL SDA}" bidirectional
+			(at 109.22 81.28 0)
+			(uuid "84f084af-e925-488d-b1b1-1ea62b04f016")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S{WS CK MCK SDI SDO}" bidirectional
+			(at 109.22 77.47 0)
+			(uuid "a9d5d023-4e12-4d3a-932a-d7301dcec87a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -459,7 +599,7 @@
 		)
 	)
 	(sheet
-		(at 195.834 107.188)
+		(at 195.834 105.918)
 		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -475,7 +615,7 @@
 		)
 		(uuid "f8e14ee7-176c-4894-b162-01ced926259d")
 		(property "Sheetname" "Power"
-			(at 195.834 106.4764 0)
+			(at 195.834 105.2064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,7 +624,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 195.834 117.9326 0)
+			(at 195.834 116.6626 0)
 			(effects
 				(font
 					(size 1.27 1.27)

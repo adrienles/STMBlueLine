@@ -4233,6 +4233,15 @@
 		(uuid "a479914b-6160-4d73-83b3-6463aceed12c")
 	)
 	(bus_entry
+		(at 179.07 135.89)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd5d685-6a02-4771-a92d-b90313070885")
+	)
+	(bus_entry
 		(at 181.61 74.93)
 		(size -2.54 -2.54)
 		(stroke
@@ -4240,6 +4249,15 @@
 			(type default)
 		)
 		(uuid "b8073387-8df2-4724-acc3-15ef665ee920")
+	)
+	(bus_entry
+		(at 179.07 130.81)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdee6068-2d1f-4510-81aa-5c0bbec30f56")
 	)
 	(bus_entry
 		(at 179.07 54.61)
@@ -4636,6 +4654,16 @@
 		)
 		(uuid "3c102f23-6577-4d91-978d-e00b8eb752de")
 	)
+	(wire
+		(pts
+			(xy 176.53 138.43) (xy 165.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40752ed5-9ce9-4a7f-8e16-deca3b6d8e41")
+	)
 	(bus
 		(pts
 			(xy 179.07 107.95) (xy 181.61 107.95)
@@ -4745,16 +4773,6 @@
 			(type default)
 		)
 		(uuid "50212e1d-376d-4878-8824-83162ba16185")
-	)
-	(bus
-		(pts
-			(xy 179.07 120.65) (xy 179.07 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51cf2d49-03fa-44f9-a575-a3395a2847bf")
 	)
 	(bus
 		(pts
@@ -4906,6 +4924,16 @@
 		)
 		(uuid "69ee8d26-2d02-47a1-80cf-6fb7f4fe6650")
 	)
+	(bus
+		(pts
+			(xy 179.07 135.89) (xy 180.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0b191f-7205-42b2-b8ed-5be38e3c5a96")
+	)
 	(wire
 		(pts
 			(xy 139.7 25.4) (xy 139.7 29.21)
@@ -4935,6 +4963,16 @@
 			(type default)
 		)
 		(uuid "6d90059c-4fd7-467a-8846-729e7d7a23e3")
+	)
+	(bus
+		(pts
+			(xy 179.07 130.81) (xy 180.34 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df97720-9e7d-4809-b47b-6a00d204ec3e")
 	)
 	(wire
 		(pts
@@ -5398,6 +5436,26 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 133.35) (xy 165.1 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb96ae3-6f8a-4b26-ac91-6f6059235ac2")
+	)
+	(bus
+		(pts
+			(xy 179.07 120.65) (xy 179.07 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfee7315-e72e-41fb-b518-3936bace18f2")
+	)
+	(wire
+		(pts
 			(xy 90.17 80.01) (xy 100.33 80.01)
 		)
 		(stroke
@@ -5726,6 +5784,16 @@
 		)
 		(uuid "6b3b1224-0adc-43b8-a694-790c569d22b6")
 	)
+	(label "I2S2.MCK"
+		(at 165.1 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d0c2683-0646-484a-9622-8131b2349336")
+	)
 	(label "I2C1.SDA"
 		(at 165.1 97.79 0)
 		(effects
@@ -5755,6 +5823,16 @@
 			(justify left bottom)
 		)
 		(uuid "9eb30559-8ea9-49e4-8159-67ff2cff1f2c")
+	)
+	(label "I2S1.MCK"
+		(at 165.1 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a77fdaf9-791e-41d8-b364-3d5f6ce0c345")
 	)
 	(label "SDMMC1.D3"
 		(at 165.1 151.13 0)
@@ -5866,7 +5944,18 @@
 		)
 		(uuid "f2e13bc7-e880-4b9b-bb10-ba75484a20ae")
 	)
-	(hierarchical_label "I2S2{WS CK SDI SDO}"
+	(hierarchical_label "codec2_nRST"
+		(shape output)
+		(at 121.92 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "020747c7-57fa-41e7-8287-8d8cef4a58ee")
+	)
+	(hierarchical_label "I2S2{WS CK MCK SDI SDO}"
 		(shape bidirectional)
 		(at 181.61 110.49 0)
 		(effects
@@ -5921,7 +6010,7 @@
 		)
 		(uuid "7fe7950e-5218-42b4-ad4f-9d8637ede5a5")
 	)
-	(hierarchical_label "I2S1{WS CK SDI SDO}"
+	(hierarchical_label "I2S1{WS CK MCK SDI SDO}"
 		(shape bidirectional)
 		(at 181.61 46.99 0)
 		(effects
@@ -5931,6 +6020,17 @@
 			(justify left)
 		)
 		(uuid "92967a66-e3e9-41a0-ba21-7a52864e96d7")
+	)
+	(hierarchical_label "I2S2{WS CK MCK SDI SDO}"
+		(shape bidirectional)
+		(at 180.34 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fb51350-b8dc-4b9b-8627-c08094103f5f")
 	)
 	(hierarchical_label "I2C1{SCL SDA}"
 		(shape bidirectional)
@@ -5943,6 +6043,17 @@
 		)
 		(uuid "b89a46fb-57fb-477c-bb54-76e23f2dd0c3")
 	)
+	(hierarchical_label "I2S1{WS CK MCK SDI SDO}"
+		(shape bidirectional)
+		(at 180.34 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba1fad69-1224-47d9-be09-9d52bea36acf")
+	)
 	(hierarchical_label "SDMMC1{D[0..3] CLK CMD DET}"
 		(shape bidirectional)
 		(at 182.88 143.51 0)
@@ -5953,6 +6064,17 @@
 			(justify left)
 		)
 		(uuid "bc489f5b-1503-4c55-ac12-09dea41f525d")
+	)
+	(hierarchical_label "codec1_nRST"
+		(shape output)
+		(at 165.1 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc6906b3-38b3-42a5-a324-05de346738dc")
 	)
 	(symbol
 		(lib_id "power:GND")
