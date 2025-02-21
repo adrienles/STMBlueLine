@@ -1123,7 +1123,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 109.22) (xy 109.22 109.22)
+			(xy 105.41 109.22) (xy 121.92 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1230,16 +1230,6 @@
 			(type default)
 		)
 		(uuid "5981f1e7-9a91-49bf-a701-dc649cef9d81")
-	)
-	(wire
-		(pts
-			(xy 116.84 109.22) (xy 121.92 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59e2d08d-1f8b-4b20-a21d-a864b22ed6dc")
 	)
 	(wire
 		(pts
@@ -1542,7 +1532,7 @@
 		(uuid "07745d0a-54ed-43de-89ef-f4b4f39e75ef")
 	)
 	(label "TODO: Add ESD Protection"
-		(at 66.04 124.46 0)
+		(at 31.75 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2244,73 +2234,6 @@
 			(project "STMBlueLine"
 				(path "/d9f70aa0-fcfd-4ae4-9801-1024ce5b770a/b1a92380-38d8-44e8-bc23-33aa2ab32880"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 113.03 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6bc30c4-0b01-43f5-848f-44ce0b836e9d")
-		(property "Reference" "R1"
-			(at 113.03 106.934 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 113.03 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "592835d2-d607-4711-bf31-3af08ad0ec3f")
-		)
-		(pin "1"
-			(uuid "96ff694e-89ca-466a-b7ac-fc398e513896")
-		)
-		(instances
-			(project "STMBlueLine"
-				(path "/d9f70aa0-fcfd-4ae4-9801-1024ce5b770a/b1a92380-38d8-44e8-bc23-33aa2ab32880"
-					(reference "R1")
 					(unit 1)
 				)
 			)
