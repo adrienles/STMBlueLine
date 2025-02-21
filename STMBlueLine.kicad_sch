@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d9f70aa0-fcfd-4ae4-9801-1024ce5b770a")
 	(paper "A4")
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 160.02 66.04) (xy 160.02 68.58)
+			(xy 148.59 71.882) (xy 148.59 74.422)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 66.04) (xy 160.02 66.04)
+			(xy 130.302 71.882) (xy 148.59 71.882)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 58.42) (xy 170.18 68.58)
+			(xy 158.242 64.262) (xy 158.242 74.422)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 63.5) (xy 142.24 66.04)
+			(xy 130.302 69.342) (xy 130.302 71.882)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +47,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 58.42) (xy 180.34 58.42)
+			(xy 158.242 64.262) (xy 168.402 64.262)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 55.88) (xy 165.1 68.58)
+			(xy 153.162 61.722) (xy 153.162 74.422)
 		)
 		(stroke
 			(width 0)
@@ -66,8 +66,12 @@
 		(uuid "f9d420f7-5865-43eb-aa29-0c545efb81fa")
 	)
 	(sheet
-		(at 132.08 68.58)
-		(size 43.18 43.18)
+		(at 113.792 74.422)
+		(size 76.2 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -78,7 +82,7 @@
 		)
 		(uuid "06ef213c-9b6a-476b-b845-ea62437585b7")
 		(property "Sheetname" "MCU"
-			(at 132.08 67.8684 0)
+			(at 113.792 73.7104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87,7 +91,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 132.08 112.3446 0)
+			(at 113.792 118.1866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,74 +100,74 @@
 			)
 		)
 		(pin "SDMMC1{D[0..3] CLK CMD DET}" bidirectional
-			(at 170.18 68.58 90)
+			(at 158.242 74.422 90)
+			(uuid "5fbacf39-0f1d-442f-963f-2e6552384190")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5fbacf39-0f1d-442f-963f-2e6552384190")
 		)
 		(pin "I2C1{SCL SDA}" bidirectional
-			(at 132.08 74.93 180)
+			(at 113.792 80.772 180)
+			(uuid "ea6f57eb-e3f7-4ba7-99b0-bf6e19cd1c9e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ea6f57eb-e3f7-4ba7-99b0-bf6e19cd1c9e")
 		)
 		(pin "I2S2{WS CK SDI SDO}" bidirectional
-			(at 132.08 80.01 180)
+			(at 189.992 76.962 0)
+			(uuid "aa6e959c-e0f3-4952-b8e5-82bb368c4e95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "aa6e959c-e0f3-4952-b8e5-82bb368c4e95")
 		)
 		(pin "I2C2{SCL SDA}" bidirectional
-			(at 132.08 83.82 180)
+			(at 189.992 80.772 0)
+			(uuid "c35baac0-754d-4224-adf6-df38c186e771")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "c35baac0-754d-4224-adf6-df38c186e771")
 		)
 		(pin "I2S1{WS CK SDI SDO}" bidirectional
-			(at 132.08 71.12 180)
+			(at 113.792 76.962 180)
+			(uuid "4ea1ae70-26e1-44a9-ba6b-83f43a1da2db")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4ea1ae70-26e1-44a9-ba6b-83f43a1da2db")
 		)
 		(pin "USB{M P}" bidirectional
-			(at 165.1 68.58 90)
+			(at 153.162 74.422 90)
+			(uuid "8025f63b-c9f3-4c8f-ad42-0c6219d3d376")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8025f63b-c9f3-4c8f-ad42-0c6219d3d376")
 		)
 		(pin "STLINK{SWDIO SWCLK}" bidirectional
-			(at 160.02 68.58 90)
+			(at 148.59 74.422 90)
+			(uuid "26becf71-01a1-48de-a5dc-237e03ee7736")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "26becf71-01a1-48de-a5dc-237e03ee7736")
 		)
 		(instances
 			(project "STMBlueLine"
@@ -174,8 +178,12 @@
 		)
 	)
 	(sheet
-		(at 152.4 25.4)
+		(at 140.462 31.242)
 		(size 20.32 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -185,7 +193,7 @@
 		)
 		(uuid "1b8eacbf-3481-434e-abf0-0c77f2ae786c")
 		(property "Sheetname" "USB DFU"
-			(at 152.4 24.6884 0)
+			(at 140.462 30.5304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,7 +202,7 @@
 			)
 		)
 		(property "Sheetfile" "USB-DFU.kicad_sch"
-			(at 173.228 55.626 90)
+			(at 161.29 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,14 +211,14 @@
 			)
 		)
 		(pin "USB{M P}" bidirectional
-			(at 165.1 55.88 270)
+			(at 153.162 61.722 270)
+			(uuid "33b23a11-5d7a-420a-a08d-b03ba8a5dd19")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "33b23a11-5d7a-420a-a08d-b03ba8a5dd19")
 		)
 		(instances
 			(project "STMBlueLine"
@@ -221,8 +229,12 @@
 		)
 	)
 	(sheet
-		(at 132.08 38.1)
+		(at 120.142 43.942)
 		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -233,7 +245,7 @@
 		)
 		(uuid "3a1846a8-7cf9-40e2-86f9-7ca7be2746df")
 		(property "Sheetname" "STLINK"
-			(at 131.3684 63.5 90)
+			(at 119.4304 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,7 +254,7 @@
 			)
 		)
 		(property "Sheetfile" "STLINK.kicad_sch"
-			(at 147.9046 63.5 90)
+			(at 135.9666 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -251,14 +263,14 @@
 			)
 		)
 		(pin "STLINK{SWDIO SWCLK}" bidirectional
-			(at 142.24 63.5 270)
+			(at 130.302 69.342 270)
+			(uuid "966ce6e2-27b9-4d7b-9b09-5218cf4198db")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "966ce6e2-27b9-4d7b-9b09-5218cf4198db")
 		)
 		(instances
 			(project "STMBlueLine"
@@ -269,8 +281,12 @@
 		)
 	)
 	(sheet
-		(at 132.08 116.84)
-		(size 43.18 35.56)
+		(at 76.454 122.682)
+		(size 151.638 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -281,7 +297,7 @@
 		)
 		(uuid "666ee3ec-a1ed-4703-98a8-cdaea5f84fb1")
 		(property "Sheetname" "M.2 Connector"
-			(at 132.08 116.1284 0)
+			(at 76.454 121.9704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -290,7 +306,7 @@
 			)
 		)
 		(property "Sheetfile" "M2.kicad_sch"
-			(at 132.08 152.9846 0)
+			(at 76.454 158.8266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,8 +323,54 @@
 		)
 	)
 	(sheet
-		(at 180.34 53.34)
+		(at 195.072 74.422)
+		(size 32.258 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f8c37d1-a91f-4122-861e-de16d931f91f")
+		(property "Sheetname" "Codec (In-Out Channels 3 & 4)"
+			(at 195.072 73.7104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Codec.kicad_sch"
+			(at 195.072 95.3266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STMBlueLine"
+				(path "/d9f70aa0-fcfd-4ae4-9801-1024ce5b770a"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.402 59.182)
 		(size 33.02 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -319,7 +381,7 @@
 		)
 		(uuid "b1a92380-38d8-44e8-bc23-33aa2ab32880")
 		(property "Sheetname" "Micro SD"
-			(at 180.34 52.6284 0)
+			(at 168.402 58.4704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,7 +390,7 @@
 			)
 		)
 		(property "Sheetfile" "MicroSD.kicad_sch"
-			(at 180.34 64.0846 0)
+			(at 168.402 69.9266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -337,14 +399,14 @@
 			)
 		)
 		(pin "SDMMC1{D[0..3] CLK CMD DET}" bidirectional
-			(at 180.34 58.42 180)
+			(at 168.402 64.262 180)
+			(uuid "191abfd9-aec6-49ea-86b9-e805324ccc4e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "191abfd9-aec6-49ea-86b9-e805324ccc4e")
 		)
 		(instances
 			(project "STMBlueLine"
@@ -355,8 +417,12 @@
 		)
 	)
 	(sheet
-		(at 101.6 68.58)
-		(size 25.4 20.32)
+		(at 76.454 74.422)
+		(size 32.258 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -366,8 +432,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f3476d08-12bc-4118-bd89-b8dcd1d3e6bf")
-		(property "Sheetname" "Codec"
-			(at 101.6 67.8684 0)
+		(property "Sheetname" "Codec (In-Out Channels 1 & 2)"
+			(at 76.454 73.7104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,7 +442,7 @@
 			)
 		)
 		(property "Sheetfile" "Codec.kicad_sch"
-			(at 101.6 89.4846 0)
+			(at 76.454 95.3266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,8 +459,12 @@
 		)
 	)
 	(sheet
-		(at 180.34 88.9)
+		(at 195.834 107.188)
 		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -405,7 +475,7 @@
 		)
 		(uuid "f8e14ee7-176c-4894-b162-01ced926259d")
 		(property "Sheetname" "Power"
-			(at 180.34 88.1884 0)
+			(at 195.834 106.4764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -414,7 +484,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 180.34 99.6446 0)
+			(at 195.834 117.9326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -435,4 +505,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
