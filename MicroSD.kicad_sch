@@ -2347,7 +2347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "random-footprints:TF15X15"
+		(property "Footprint" "easyeda2kicad:TF-SMD_TF-123-ARP9H15"
 			(at 196.85 78.74 0)
 			(effects
 				(font
