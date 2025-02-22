@@ -1441,6 +1441,123 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "G-Switch GT-USB-7010ASV"
+		(exclude_from_sim no)
+		(at 124.968 98.298 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5e8d151-68a8-4b01-aee2-d63277fe2a94")
+	)
+	(junction
+		(at 160.02 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "003f71aa-061d-49ae-ab0e-92444b5eb7ee")
 	)
 	(junction
 		(at 154.94 97.79)
@@ -1608,6 +1725,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 123.19) (xy 137.16 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d21c194-adf1-48fa-abc9-a26a5fe1ca44")
+	)
+	(wire
+		(pts
 			(xy 154.94 97.79) (xy 152.4 97.79)
 		)
 		(stroke
@@ -1668,7 +1795,17 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 82.55) (xy 152.4 82.55)
+			(xy 160.02 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56572cb-b3d9-44f1-9dd5-f91a5ff156ca")
+	)
+	(wire
+		(pts
+			(xy 171.45 82.55) (xy 160.02 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1765,6 +1902,16 @@
 			(type default)
 		)
 		(uuid "e975ab22-fa6e-4bb8-b552-1e81a8bb0906")
+	)
+	(wire
+		(pts
+			(xy 129.54 120.65) (xy 129.54 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3e1d2e-3261-4fd3-a156-90b51046b780")
 	)
 	(wire
 		(pts
@@ -1894,6 +2041,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 160.02 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f4b8c93-8c5a-4d27-b038-793919b70095")
+		(property "Reference" "#FLG01"
+			(at 160.02 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24f4be84-ee29-4e27-a72c-ebb4bcf361eb")
+		)
+		(instances
+			(project ""
+				(path "/d9f70aa0-fcfd-4ae4-9801-1024ce5b770a/1b8eacbf-3481-434e-abf0-0c77f2ae786c"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 157.48 109.22 0)
 		(unit 1)
@@ -1911,7 +2124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "5.1k"
 			(at 159.004 110.49 0)
 			(effects
 				(font
@@ -1920,7 +2133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 155.702 109.22 90)
 			(effects
 				(font
@@ -1980,7 +2193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "5.1k"
 			(at 166.624 110.49 0)
 			(effects
 				(font
@@ -1989,7 +2202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 163.322 109.22 90)
 			(effects
 				(font
@@ -2142,7 +2355,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 140.97 97.79 0)
 			(effects
 				(font

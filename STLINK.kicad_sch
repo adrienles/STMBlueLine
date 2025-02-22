@@ -567,7 +567,7 @@
 	)
 	(bus
 		(pts
-			(xy 142.24 92.71) (xy 144.78 92.71)
+			(xy 143.51 92.71) (xy 144.78 92.71)
 		)
 		(stroke
 			(width 0)
@@ -617,7 +617,7 @@
 	)
 	(hierarchical_label "STLINK{SWDIO SWCLK}"
 		(shape bidirectional)
-		(at 142.24 92.71 180)
+		(at 143.51 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -654,7 +654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 166.37 96.52 0)
 			(effects
 				(font

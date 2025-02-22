@@ -1010,6 +1010,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TF15X15"
+		(exclude_from_sim no)
+		(at 166.878 94.234 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b52bbc4e-388d-4410-a6ed-18869c83498e")
+	)
 	(junction
 		(at 97.79 124.46)
 		(diameter 0)
@@ -2061,7 +2071,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 77.47 77.47 90)
 			(effects
 				(font
@@ -2069,7 +2079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.708 77.47 90)
 			(effects
 				(font
@@ -2128,7 +2138,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 85.09 77.47 90)
 			(effects
 				(font
@@ -2136,7 +2146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 84.328 77.47 90)
 			(effects
 				(font
@@ -2195,7 +2205,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 62.23 77.47 90)
 			(effects
 				(font
@@ -2203,7 +2213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 61.468 77.47 90)
 			(effects
 				(font
@@ -2337,7 +2347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "random-footprints:TF15X15"
 			(at 196.85 78.74 0)
 			(effects
 				(font
@@ -2496,7 +2506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 105.41 119.38 0)
 			(effects
 				(font
@@ -2555,7 +2565,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 107.95 77.47 90)
 			(effects
 				(font
@@ -2563,7 +2573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 107.188 77.47 90)
 			(effects
 				(font
@@ -2622,7 +2632,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 69.85 77.47 90)
 			(effects
 				(font
@@ -2630,7 +2640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 69.088 77.47 90)
 			(effects
 				(font
@@ -2700,7 +2710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 90.17 119.38 0)
 			(effects
 				(font
@@ -2770,7 +2780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 59.69 119.38 0)
 			(effects
 				(font
@@ -2840,7 +2850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 97.79 119.38 0)
 			(effects
 				(font
@@ -2976,7 +2986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 74.93 119.38 0)
 			(effects
 				(font
@@ -3101,7 +3111,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 92.71 77.47 90)
 			(effects
 				(font
@@ -3109,7 +3119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.948 77.47 90)
 			(effects
 				(font
@@ -3179,7 +3189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 82.55 119.38 0)
 			(effects
 				(font
@@ -3249,7 +3259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 67.31 119.38 0)
 			(effects
 				(font
@@ -3308,7 +3318,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 100.33 77.47 90)
 			(effects
 				(font
@@ -3316,7 +3326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.568 77.47 90)
 			(effects
 				(font
@@ -3384,7 +3394,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.35 71.4248 0)
 			(effects
 				(font
