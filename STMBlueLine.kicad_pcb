@@ -1369,6 +1369,17 @@
 			(uuid "3e3985c8-6e63-49d9-b5e6-a1bcf379801b")
 		)
 		(embedded_fonts no)
+		(model "${USER_3D}/TS-1088-AR02016--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -3298,7 +3309,7 @@
 			(effects
 				(font
 					(size 0.480383 0.480383)
-					(thickness 0.15)
+					(thickness 0.120096)
 				)
 			)
 		)
@@ -3309,7 +3320,7 @@
 			(effects
 				(font
 					(size 0.480417 0.480417)
-					(thickness 0.15)
+					(thickness 0.120104)
 				)
 			)
 		)
@@ -4228,6 +4239,17 @@
 			(uuid "e79c8fe5-41a1-41e0-900f-7f09c61028b8")
 		)
 		(embedded_fonts no)
+		(model "${USER_3D}/TLV320AIC3104IRHBR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1.0001 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
@@ -17012,7 +17034,7 @@
 			(effects
 				(font
 					(size 0.480383 0.480383)
-					(thickness 0.15)
+					(thickness 0.120096)
 				)
 			)
 		)
@@ -17023,7 +17045,7 @@
 			(effects
 				(font
 					(size 0.480417 0.480417)
-					(thickness 0.15)
+					(thickness 0.120104)
 				)
 			)
 		)
@@ -17942,6 +17964,17 @@
 			(uuid "059ebcc3-38a5-423c-8807-7aa20e38bf4c")
 		)
 		(embedded_fonts no)
+		(model "${USER_3D}/TLV320AIC3104IRHBR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1.0001)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "random-footprints:SW_TS-1088-AR02016"
 		(layer "F.Cu")
@@ -18158,6 +18191,17 @@
 			(uuid "5a0ab394-74e2-4a4e-a1fe-8b4ae0759edf")
 		)
 		(embedded_fonts no)
+		(model "${USER_3D}/TS-1088-AR02016--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 		(layer "F.Cu")
